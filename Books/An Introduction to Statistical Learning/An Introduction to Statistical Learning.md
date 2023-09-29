@@ -1,0 +1,26 @@
+https://hastie.su.domains/ISLP/ISLP_website.pdf
+
+ In datasets like for example wage and stock market, we have more messurements and therefore we can try to make associations and predictions.
+
+
+<h1>Chapter 1 </h1>
+
+in some datasets we have both input and output variables, but there are also situations where we can only observe input variables without a corresponding output (gene expression data), a.k.a. <u><b>clustering</b></u> problem, here we're not trying to predict an output variable. *dataset used in book - NTC60
+
+This dataset consists of 6830 gene expression measurements for each of 64 cancer cell lines., so instead of predicting an output, we're interested in determining wheter there are goups or clusters among the cell lines based on their gene expression measurments. 
+
+Gene expression clusters shown on two different plots can proof the observation and provide evidence that the cell lines with the same cancer type are usually located near eachother
+![[Pasted image 20230929115005.png]]
+
+<u>Linear regression</u>  - used to predtict quantitive values, such as salary
+For qualitative values, such as if patient survives or dies, or stock market increases or decreases, <u>Logistic Regression</u>
+
+<h2>Notations and Simple Matrix Algrebra</h2>
+n - number of distinct data points or observations in sample
+p - number of variables that are available for use in making predictions (age, year, race etc.)
+i - index the samples of observations (from 1 to n)
+j - index the variables (from 1 to p)
+X - n x p matrix whose (i, j) element is Xij.
+
+
+
