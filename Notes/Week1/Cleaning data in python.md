@@ -6,13 +6,17 @@ df.dtypes
 df.info()
 ```
 
-
+To find rows with a $ sign we can use:
+```python
+#na=False replaces all NaN values with False
+df[df['column'].str.contains('$', na=False)]
+```
 to remove the $ sign we can use
 ```python
 df['column'] = df['column'].str.strip('$')'
 #and now we can change it to int:
 df['column'] = df['column'].astype('int')
-
+	
 #verify that df is now an integer
 assert df['column'].dtype == 'int'
 ```
