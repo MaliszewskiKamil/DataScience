@@ -22,8 +22,8 @@ df['column'] = df['column'].astype('int')
 assert df['column'].dtype == 'int'
 ```
 #assert is very important for testing
-![](https://github.com/MaliszewskiKamil/DataScience/blob/main/Books/An%20Introduction%20to%20Statistical%20Learning/images/Pasted%20image%2020230929115005.png)
-![[../images/w1/Pasted image 20230930194455.png]]
+
+![](../images/w1/Pasted%20image%2020230930195334.png)
 
 
 ![[Pasted image 20230927165545.png]]
