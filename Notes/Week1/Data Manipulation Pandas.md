@@ -1,4 +1,4 @@
-https://campus.datacamp.com/courses/data-manipulation-with-pandas
+	https://campus.datacamp.com/courses/data-manipulation-with-pandas
 #bigdata 
 pip packages are stored in site-packages folder
 ```python
@@ -8,8 +8,8 @@ homelessness.info()
 homelessness.describe()
 ```
 
-![[Pasted image 20230925112323.png]]
-![[Pasted image 20230925112509.png]]
+![](../Pasted%20image%2020230930195723.png)
+![](../Pasted%20image%2020230930195731.png)
 ```python
 df['column'].agg(custom_function)
 ```
@@ -26,7 +26,7 @@ print(sales['temperature_c'].agg(iqr))
 
 ***********************
 Importing multiple aggregation functions looks like this:
-![[Pasted image 20230925114622.png]]
+![](../Pasted%20image%2020230930195750.png)
 ```python
 df.drop_duplicates(subset='column')
 ```
@@ -58,7 +58,7 @@ Scatter plots good for finding relationship between two numeric values, like hei
 
 Layering plots is also possible (for example male vs female)
 
-![[Pasted image 20230927110744.png]]
+![](../Pasted%20image%2020230930195804.png)
 
 --------------
 
@@ -93,7 +93,7 @@ my_dict = {
 
 
 Dataframes can be created in two ways, from a list of dictionaries (by row) or from a dictionary of lists (by columns)
-![[Pasted image 20230927115724.png]]
+![](../Pasted%20image%2020230930195813.png)
 
 ```python
 list_of_dicts = [

@@ -23,12 +23,8 @@ assert df['column'].dtype == 'int'
 ```
 #assert is very important for testing
 
-![](../images/w1/Pasted%20image%2020230930195334.png)
-
-
-![[Pasted image 20230927165545.png]]
-![[Pasted image 20230927165609.png]]
-
+![](../Pasted%20image%2020230930195608.png)
+![](../Pasted%20image%2020230930195623.png)
 
 changing type is good when we need a good description of a specific category
 
