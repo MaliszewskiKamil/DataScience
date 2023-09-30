@@ -1,4 +1,5 @@
 https://campus.datacamp.com/courses/cleaning-data-in-python
+#bigdata
 example: 21503$
 get data types of columns with:
 ```python
@@ -21,6 +22,10 @@ df['column'] = df['column'].astype('int')
 assert df['column'].dtype == 'int'
 ```
 #assert is very important for testing
+![](https://github.com/MaliszewskiKamil/DataScience/blob/main/Books/An%20Introduction%20to%20Statistical%20Learning/images/Pasted%20image%2020230929115005.png)
+![[../images/w1/Pasted image 20230930194455.png]]
+
+
 ![[Pasted image 20230927165545.png]]
 ![[Pasted image 20230927165609.png]]
 
