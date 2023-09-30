@@ -6,7 +6,7 @@ get data types of columns with:
 df.dtypes
 df.info()
 ```
-
+![](../Pasted%20image%2020230930200505.png)
 To find rows with a $ sign we can use:
 ```python
 #na=False replaces all NaN values with False
