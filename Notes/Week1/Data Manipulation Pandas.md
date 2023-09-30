@@ -8,8 +8,8 @@ homelessness.info()
 homelessness.describe()
 ```
 
-![](../Pasted%20image%2020230930195723.png)
-![](../Pasted%20image%2020230930195731.png)
+![](../images/w1/Pasted%20image%2020230930195723.png)
+![](../images/w1/Pasted%20image%2020230930195731.png)
 ```python
 df['column'].agg(custom_function)
 ```
@@ -26,7 +26,7 @@ print(sales['temperature_c'].agg(iqr))
 
 ***********************
 Importing multiple aggregation functions looks like this:
-![](../Pasted%20image%2020230930195750.png)
+![](../images/w1/Pasted%20image%2020230930195750.png)
 ```python
 df.drop_duplicates(subset='column')
 ```
@@ -58,7 +58,7 @@ Scatter plots good for finding relationship between two numeric values, like hei
 
 Layering plots is also possible (for example male vs female)
 
-![](../Pasted%20image%2020230930195804.png)
+![](../images/w1/Pasted%20image%2020230930195804.png)
 
 --------------
 
@@ -96,7 +96,7 @@ my_dict = {
 
 
 Dataframes can be created in two ways, from a list of dictionaries (by row) or from a dictionary of lists (by columns)
-![](../Pasted%20image%2020230930195813.png)
+![](../images/w1/Pasted%20image%2020230930195813.png)
 
 ```python
 list_of_dicts = [

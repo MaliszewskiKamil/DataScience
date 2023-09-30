@@ -6,7 +6,7 @@ get data types of columns with:
 df.dtypes
 df.info()
 ```
-![](../Pasted%20image%2020230930200505.png)
+
 To find rows with a $ sign we can use:
 ```python
 #na=False replaces all NaN values with False
@@ -23,8 +23,8 @@ assert df['column'].dtype == 'int'
 ```
 #assert is very important for testing
 
-![](../Pasted%20image%2020230930195608.png)
-![](../Pasted%20image%2020230930195623.png)
+![](../images/w1/Pasted%20image%2020230930195608.png)
+![](../images/w1/Pasted%20image%2020230930195623.png)
 
 changing type is good when we need a good description of a specific category
 
