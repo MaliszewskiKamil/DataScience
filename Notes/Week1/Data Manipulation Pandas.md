@@ -62,7 +62,8 @@ Layering plots is also possible (for example male vs female)
 
 --------------
 
-<h1>Missing Values </h1>
+# Missing Values
+
 ```python
 df.isna()  #searches if there are missing values
 df.isna().any() # checks for all columns
@@ -81,8 +82,10 @@ df.fillna(0)
 
 
 ------------------------------
-<h1>Dataframes</h1>
-<h2>Dictionaries</h2>
+# Dataframes
+
+## Dictionaries
+
 ```python
 my_dict = {
 	'key1': value1,
@@ -110,7 +113,8 @@ dict_of_lists = {
 ```
 
 
-<h2>Writing/Reading CSV</h2>
+## Writing/Reading CSV
+
 ```python
 pd.read_csv("file.csv")
 newpd_to_csv(new_file.csv)
