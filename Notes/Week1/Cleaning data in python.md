@@ -47,3 +47,14 @@ movies.loc[movies['avg_rating'] > 5, 'avg_rating'] = 5
 ```
 
 
+## Converting to date and filtering data:
+```python
+pd.to_datetime(dt['dateTime_object']).dt.date
+
+today_date = dt.date.today()
+#drop values using filtering
+dt = dt[dt['date'] < today_date]
+#drop values using .drop()
+dt.drop(dt[dt['date'] > today_date].index, inplace = True)
+```
+
